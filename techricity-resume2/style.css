@@ -1,0 +1,83 @@
+/* Paleta de colores profesional: Texto carbón oscuro sobre fondo blanquecino limpio [cite: 20] */
+body {
+    background-color: #ebebeb; /* Fondo blanco*/
+    color: #2c2c2c; /* Carbon */
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+header, main, footer {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    color: #111111;
+    margin: 0 0 5px 0;
+}
+
+h2 {
+    font-size: 1.35rem;
+    color: #1e272e;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 6px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+h3 {
+    font-size: 1.1rem;
+    color: #2f3542;
+    margin: 15px 0 5px 0;
+}
+
+p {
+    margin: 0 0 10px 0;
+}
+
+.subtitle {
+    font-weight: 600;
+    color: #57606f;
+    font-size: 1.1rem;
+}
+
+.contact-info {
+    font-size: 0.9rem;
+    color: #747d8c;
+}
+
+.meta {
+    font-size: 0.88rem;
+    font-style: italic;
+    color: #747d8c;
+    margin-bottom: 8px;
+}
+
+ul {
+    margin: 0 0 15px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #a4b0be;
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+}
